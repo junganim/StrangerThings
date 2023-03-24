@@ -1,0 +1,228 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@media screen and (min-width:1024px) {
+    body{
+        background-color: black;
+    }
+    header {
+        height: 20%;
+        text-align: center;
+        background-color: black;
+    }
+    img{width: 40%;}
+    
+    nav{
+        height: 10%;
+        background-color: black;
+        padding: 1.5%;
+    
+    }
+    
+    ul li a {
+        text-decoration-line: none;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    a:link {color: darkred; }
+    a:visited { color:darkred; }
+    a:hover{color: red;}
+    
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        margin-left: 10%;
+    }
+    
+    section{
+        padding: 1%;
+        position: relative;
+    }
+    
+    section img{
+        height: auto;
+        width: 100%;
+        background-repeat : no-repeat;
+        background-size : cover;
+    
+        z-index: index 1;
+    }
+    span{
+        padding-left: 1%;
+        border-left: 1vw solid darkred;
+        text-shadow: 0px 1px rgb(196, 142, 142);
+        position: absolute;
+        top: 55%;
+        left: 60%;
+        transform: translate( -0%, -0% );
+        color: darkred;
+        font-weight: bold;
+        z-index: index 2;
+        line-height: 2.5vw;
+        font-size: 1.5vw;
+    }
+    span h1{
+        font-size: 2vw; 
+    }
+    
+    footer{
+        background-color: black;
+        padding: 3vw;
+        color: wheat;
+        font-size: 1vw;
+        text-align: center;
+    }
+    footer a:link {color: wheat; }
+    footer a:visited { color:wheat; }
+    footer a:hover{color: pink;}
+}
+@media screen and (max-width:1023px) {
+    body{
+        background-color: black;
+    }
+    header {
+        height: 20%;
+        text-align: center;
+        background-color: black;
+    }
+    img{width: 40%;}
+    
+    nav{
+        height: 10%;
+        background-color: black;
+        padding: 1.5%;
+    
+    }
+    
+    ul li a {
+        text-decoration-line: none;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    a:link {color: darkred; }
+    a:visited { color:darkred; }
+    a:hover{color: red;}
+    
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        margin-left: 10%;
+    }
+    
+    section{
+        padding: 1%;
+        position: relative;
+    }
+    
+    section img{
+        height: auto;
+        width: 100%;
+        background-repeat : no-repeat;
+        background-size : cover;
+    
+        z-index: index 1;
+    }
+    span{
+        padding-left: 1%;
+        border-left: 1vw solid darkred;
+        text-shadow: 0px 1px rgb(196, 142, 142);
+        position: absolute;
+        top: 55%;
+        left: 60%;
+        transform: translate( -0%, -0% );
+        color: darkred;
+        font-weight: bold;
+        z-index: index 2;
+        line-height: 2.5vw;
+        font-size: 1.5vw;
+    }
+    span h1{
+        font-size: 2vw; 
+    }
+    
+    footer{
+        background-color: black;
+        padding: 3vw;
+        color: wheat;
+        font-size: 1vw;
+        text-align: center;
+    }
+    footer a:link {color: wheat; }
+    footer a:visited { color:wheat; }
+    footer a:hover{color: pink;}
+}
+@media screen and (max-width:767px) {
+    body{
+        background-color: black;
+    }
+    header {
+        height: 20%;
+        text-align: center;
+        background-color: black;
+    }
+    img{width: 40%;}
+    
+    nav{
+        height: 10%;
+        background-color: black;
+        padding: 1.5%;
+    
+    }
+    
+    ul li a {
+        text-decoration-line: none;
+        font-weight: bold;
+        font-size: 1.3vw;
+    }
+    a:link {color: darkred; }
+    a:visited { color:darkred; }
+    a:hover{color: red;}
+    
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        margin-left: 10%;
+    }
+    
+    section{
+        padding: 1%;
+        position: relative;
+    }
+    
+    section img{
+        height: auto;
+        width: 100%;
+        background-repeat : no-repeat;
+        background-size : cover;
+    
+        z-index: index 1;
+    }
+    span{
+        padding-left: 1%;
+        border-left: 1vw solid darkred;
+        text-shadow: 0px 1px rgb(196, 142, 142);
+        position: absolute;
+        top: 55%;
+        left: 60%;
+        transform: translate( -0%, -0% );
+        color: darkred;
+        font-weight: bold;
+        z-index: index 2;
+        line-height: 2.5vw;
+        font-size: 1.5vw;
+    }
+    span h1{
+        font-size: 2vw; 
+    }
+    
+    footer{
+        background-color: black;
+        padding: 3vw;
+        color: wheat;
+        font-size: 1vw;
+        text-align: center;
+    }
+    footer a:link {color: wheat; }
+    footer a:visited { color:wheat; }
+    footer a:hover{color: pink;}
+}
+

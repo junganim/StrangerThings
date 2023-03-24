@@ -1,0 +1,161 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@media screen and (min-width:1024px) {
+    body{
+        background-color: black;
+    }
+    header {
+        height: 20%;
+        text-align: center;
+        background-color: black;
+    }
+    img{width: 40%;}
+    
+    nav{
+        height: 10%;
+        background-color: black;
+        padding: 1.5%;
+        font-size: 1.3vw;
+    }
+    
+    ul li a {
+        text-decoration-line: none;
+        font-weight: bold;
+    }
+    a:link {color: darkred; }
+    a:visited { color:darkred; }
+    a:hover{color: red;}
+    
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        margin-left: 10%;
+    }
+    
+    section{
+        height: 60%;
+    }
+    
+    section img{
+        height: auto;
+        width: 100%;
+        background-repeat : no-repeat;
+        background-size : cover;
+    }
+    footer{
+        background-color: black;
+        padding: 3vw;
+        color: wheat;
+        font-size: 1vw;
+        text-align: center;
+    }
+    footer a:link {color: wheat; }
+    footer a:visited { color:wheat; }
+    footer a:hover{color: pink;}
+}
+@media screen and (max-width:1023px) {
+    body{
+        background-color: black;
+    }
+    header {
+        height: 20%;
+        text-align: center;
+        background-color: black;
+    }
+    img{width: 40%;}
+    
+    nav{
+        height: 10%;
+        background-color: black;
+        padding: 1.5%;
+        font-size: 1.3vw;
+    }
+    
+    ul li a {
+        text-decoration-line: none;
+        font-weight: 700;
+    }
+    a:link {color: darkred; }
+    a:visited { color:darkred; }
+    a:hover{color: red;}
+    
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        margin-left: 10%;
+    }
+    
+    section{
+        height: 60%;
+    }
+    
+    section img{
+        height: auto;
+        width: 100%;
+        background-repeat : no-repeat;
+        background-size : cover;
+    }
+    footer{
+        background-color: black;
+        padding: 3vw;
+        color: wheat;
+        font-size: 1vw;
+        text-align: center;
+    }
+    footer a:link {color: wheat; }
+    footer a:visited { color:wheat; }
+    footer a:hover{color: pink;}
+}
+@media screen and (max-width:767px) {
+    body{
+        background-color: black;
+    }
+    header {
+        height: 20%;
+        text-align: center;
+        background-color: black;
+    }
+    img{width: 40%;}
+    
+    nav{
+        height: 10%;
+        background-color: black;
+        padding: 1.5%;
+        font-size: 1.3vw;
+    }
+    
+    ul li a {
+        text-decoration-line: none;
+        font-weight: 700;
+    }
+    a:link {color: darkred; }
+    a:visited { color:darkred; }
+    a:hover{color: red;}
+    
+    nav ul li{
+        list-style-type: none;
+        display: inline;
+        margin-left: 10%;
+    }
+    
+    section{
+        height: 60%;
+    }
+    
+    section img{
+        height: auto;
+        width: 100%;
+        background-repeat : no-repeat;
+        background-size : cover;
+    }
+    footer{
+        background-color: black;
+        padding: 3vw;
+        color: wheat;
+        font-size: 1vw;
+        text-align: center;
+    }
+    footer a:link {color: wheat; }
+    footer a:visited { color:wheat; }
+    footer a:hover{color: pink;}
+}
